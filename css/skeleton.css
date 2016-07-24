@@ -42,7 +42,11 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url("kyoto.jpeg");
+  background-image: url("../images/kyoto.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* For devices larger than 400px */
