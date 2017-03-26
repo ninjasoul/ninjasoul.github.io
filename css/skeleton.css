@@ -50,6 +50,8 @@ body {
   background-position: right top;
   background-attachment: fixed;
   background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("../images/kyoto.jpeg");
+  );
 }
 
 /* For devices larger than 400px */
@@ -132,11 +134,11 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Fira Mono", monospace;
-  color: #221; }
+  font-family: "Roboto", monospace;
+  color: #E5E5E5; }
 
 
 /* Typography
@@ -170,9 +172,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1E2EDB; }
+  color: #BBC0F4; }
 a:hover {
-  color: #0FA0CE; }
+  color: #E5E5E5; }
 
 
 /* Buttons
