@@ -135,10 +135,10 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.5;
+  line-height: 1.65;
   font-weight: 400;
   font-family: "Roboto", monospace;
-  color: #E5E5E5; }
+  color: white; }
 
 
 /* Typography
